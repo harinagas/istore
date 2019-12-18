@@ -1,0 +1,45 @@
+<html>
+	<form id="form"  action="bill.php" method="post">
+        
+	<center>
+		<table>
+			<caption>
+				<font color='blue' size='6'>Select Your Product</font>
+			</caption>
+			<br><br>
+			
+			<tr>
+			<td>Choose Product:</td>
+			<td>
+				<select name="product" style="width: 200px; float: left;">
+					<option>456</option>
+					<option>4325</option>
+					<option>959</option>
+					<option>76523</option>
+				</select>
+			</td>
+			<?php
+							while($row = $re->fetch_assoc())
+							{
+				?>
+							<select style="width: 200px; float: left;">	
+								
+								<option><?php echo $row['iname']; ?></option>
+							</select>
+				<?php
+							}
+				?>
+
+			<tr>
+				<td>Quantity:</td>
+				<td><input type=text name="qq"></td>
+			</tr>
+
+			<tr>
+				<td><input type=submit name="bot"></td>
+				<td><input type=reset></td>
+			</tr>
+			</table>
+		<center>
+	</form>
+</html>

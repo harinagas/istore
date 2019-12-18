@@ -1,0 +1,234 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    background-size:cover;
+    
+}
+
+h1
+{
+    margin: 100px;
+    text-align: center;
+    align:center;
+    margin-top: -250px;
+	margin-left:-200px;
+    color: white ;
+    font-size: 80px;
+    text-shadow: 5px 10px 5px rgba(1,1,1,3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.aa
+{
+    margin: 400px;
+    text-align: center;
+     color:rgb(255, 38, 0);
+     height: 500px;
+    border-radius: 20px;
+    background-image: url(additem.jpg);
+    
+    background-position: cover;
+    margin-top: -500px;
+    width:300px;
+    margin-left: 700px;
+    
+}
+h3{
+    font-size: 40px;
+    color:white;
+    border-bottom: 5px solid white;
+    margin-top: 10px;
+}
+
+.fp  input[type=submit]
+{
+   border:none;
+   outline: none;
+   height: 40px;
+   width: 200px;
+   background: red;
+   color: red;
+   font-size: 25px;
+   border-radius: 50px;
+   margin-top: 100px;
+    margin-left: 200px;
+   border-bottom:7px solid rgba(247, 248, 247, 0.911);
+}
+
+
+.button {
+    background-color: #fd0707;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align:center;
+    font-size: 30px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    
+  }
+  
+  .button:hover {opacity: 1}
+
+  
+.button1 {
+    background-color: #fd0707;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align:center;
+    font-size: 30px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    
+  }
+  
+  .button1:hover {opacity: 1}
+
+  
+.button2 {
+    background-color: #fd0707;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align:center;
+    font-size: 30px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    border-radius: 20px;
+    
+  }
+  
+  .button2:hover {opacity: 1}
+
+.avatar1
+ {
+     width: 75px;
+     height:75px;
+     margin-top: -45px;
+   
+
+   
+ }
+ .avatar2
+ {
+     width: 75px;
+     height:75px;
+     margin-top: -45px;
+   
+
+   
+ }
+ .avatar3
+ {
+     width: 75px;
+     height:75px;
+     margin-top: -45px;
+   
+
+   
+ }
+
+
+
+
+.idel
+{
+    margin: 400px;
+    text-align: center;
+     color:rgb(255, 38, 0);
+     height: 450px;
+    border-radius: 20px;
+    background-image: url(additem.jpg);
+    
+    background-position: cover;
+    margin-top: -850px;
+    width:300px;
+    margin-left: 525px;
+    
+}
+h4{
+    font-size: 4px;
+    color:white;
+    border-bottom: 1px solid white;
+    margin-top: 0px;
+}
+
+
+
+
+
+.iup
+{
+    margin: 400px;
+    text-align: center;
+     color:rgb(255, 38, 0);
+     height: 500px;
+    border-radius: 20px;
+    background-image: url(additem.jpg);
+    
+    background-position: cover;
+    margin-top: -900px;
+	margin-left: 1025px;
+   
+    width:300px;
+   
+    
+}
+h5{
+    font-size: 40px;
+    color:white;
+    border-bottom: 5px solid white;
+    margin-top: -10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+   clear: both;
+}
+
+.coloum {
+  float: left;
+  width: 25%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .coloum {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .coloum {
+    width: 100%;
+  }
+}
